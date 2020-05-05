@@ -1200,3 +1200,11 @@ hr {
     .heading{
         margin-bottom: 2.5em;
     }
+
+    .img-marg{
+        margin-bottom: 2em;
+    }
+
+    .text-marg{
+        margin-bottom: 16em;
+    }
