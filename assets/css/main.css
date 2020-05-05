@@ -3186,7 +3186,7 @@
 		color: rgba(255, 255, 255, 0.75);
 		text-align: center;
 		cursor: default;
-		padding: 4em 4em 10.2em 4em;
+		padding: 4em 4em 4em 4em;
 		/* padding: 50vh 50vw 50vh 50vw */
 	}
 
@@ -4439,7 +4439,7 @@
 		}
 
 		#imgPadding{
-			margin-bottom: 50px;
+			margin-bottom: 100px;
 		}
 
 		.idCard:hover{
