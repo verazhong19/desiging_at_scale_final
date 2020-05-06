@@ -2979,6 +2979,14 @@ fieldset:disabled a.btn {
   width: 100%;
 }
 
+.btn-block-ish {
+  display: block;
+  line-height: 3;
+  font-size: 20px;
+  width: 25%;
+  margin-top: 1.4em;
+}
+
 .btn-block + .btn-block {
   margin-top: 0.5rem;
 }

@@ -29,55 +29,92 @@
         <div class="inner">
             <div class='row desc-bg'>
                 <div class="col">
-                    <div class='text-marg'>
-                    <h1><strong>APPLY</strong></h1>
-                    
-                </div>
-                    <h1>Room #202</h1>
-                    <h3>2 Gold St, Brooklyn</h3>
+                    <div id="address">
+                        <h1>Room #202</h1>
+                        <h3>2 Gold St, Brooklyn</h3>
+                    </div>
                     <h1>1 Bed</h1>
                     <p>Some attractive words here</p>
                     <h3><strong>$220</strong></h3>
+                    <img class='map-spacer' src="http://placekitten.com/600/325" alt="Placeholder Puppy">
                 </div>
                 <div class='col'>
-                        <img class="d-block w-100 img-marg" src="http://placekitten.com/600/600" alt="First slide">
-                   
+                    <img class="d-block w-100 img-marg" src="http://placekitten.com/600/600" alt="First slide">
+
                 </div>
 
             </div>
 
-            <div class='row'>
-                <div class='col'>
-                    <div>
-                        <h1><strong>STEP 1: Property Information</strong></h1>
-                        <ul><h4><strong>Building: </strong> 2 Gold St</h4></ul>
-                        <ul><h4><strong>Room: #202-3</strong></h4></ul>
-                        <ul><h4><strong>Start Date:</strong></h4></ul>
-                        
-                    </div>
-                </div>
+            <div id='propertyInfo'>
+                <h1><strong>STEP 1: Property Information</strong></h1>
+                <ul>
+                    <h2><strong>Building: </strong> 2 Gold St</h2>
+                </ul>
+                <ul>
+                    <h2><strong>Room: </strong>#202-3</h2>
+                </ul>
+                <ul>
+                    <h2><strong>Start Date:</strong>
+                        <div class='row'>
+                            <input class='form-control form-control-lg col-1 searchMargin' type='text' placeholder="Month">
+                            <input class='form-control form-control-lg col-1 searchMargin' type='text' placeholder="Day">
+                            <input class='form-control form-control-lg col-1 searchMargin' type='text' placeholder="Year">
+                        </div>
+                    </h2>
+                </ul>
 
+            </div>
+
+            <div id='applicantInfo'>
+                <h1><strong>STEP 2: Personal Information</strong></h1>
+                <ul>
+                    <h2><strong>Name: </strong> AAAAAA AA AAAAAA</h2>
+                </ul>
+                <ul>
+                    <h2><strong>Date of Birth: </strong>2020-05-06</h2>
+                </ul>
+                <ul>
+                    <h2><strong>SSN: </strong>***-**-8629</h2>
+                </ul>
+                <ul>
+                    <h2><strong>Phone Number: </strong>XXXXXXXXXX</h2>
+                </ul>
+                <ul>
+                    <h2><strong>Email: </strong>XXXXXXXXXX</h2>
+                </ul>
+
+                <ul><a href='final_landing.html'>
+                    <button class='btn btn-primary btn-block-ish'>CONFIRM</button>
+                </a></ul>
+            </div>
 
            
 
-    <div class="loader-wrapper">
-        <span class="loader">
-			<span class="loader-inner"></span>
-        </span>
-    </div>
+        </section>
 
-    <footer id=footer>
+
+
+
+
+
+            <footer id=footer>
         <p>Copyright © 2050 CozyLiving Inc. All rights reserved.</p>
     </footer>
 
-    <script>
-        $(window).on('load', function() {
-            $(".loader-wrapper").delay(100).fadeOut('slow');
-            console.log('loaded')
-        });
-    </script>
+    <div class="loader-wrapper">
+        <span class="loader">
+    <span class="loader-inner"></span>
+        </span>
+    </div>
 
-    <!-- <script>
+            <script>
+                $(window).on('load', function() {
+                    $(".loader-wrapper").delay(100).fadeOut('slow');
+                    console.log('loaded')
+                });
+            </script>
+
+            <!-- <script>
     $(document).ready(function(){
         $("#toggleButtons").click(function(){
             $(this).button('toggle');
@@ -85,15 +122,15 @@
     });
     </script> -->
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/bootstrap.js"></script>
-    <script src="assets/js/skel.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/scroll.js"></script>
-    <script src="assets/js/jquery.easing.min.js"></script>
-    <script src="assets/js/carousel.js"></script>
+            <!-- Scripts -->
+            <script src="assets/js/jquery.scrolly.min.js"></script>
+            <script src="assets/js/bootstrap.js"></script>
+            <script src="assets/js/skel.min.js"></script>
+            <script src="assets/js/util.js"></script>
+            <script src="assets/js/main.js"></script>
+            <script src="assets/js/scroll.js"></script>
+            <script src="assets/js/jquery.easing.min.js"></script>
+            <script src="assets/js/carousel.js"></script>
 
 
 

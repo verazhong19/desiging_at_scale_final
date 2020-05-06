@@ -4848,3 +4848,7 @@
   .tooltip:hover .tooltiptext-left {
 	visibility: visible;
   }
+
+  #thanks{
+	  font-size: 28px;
+  }
