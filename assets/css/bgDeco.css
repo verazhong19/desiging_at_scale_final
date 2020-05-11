@@ -1,0 +1,47 @@
+#deco1 {
+    position: absolute;
+    top: 400px;
+    left: -120px;
+}
+
+#decoart1 {
+    position: absolute;
+    top: 650px;
+    left: 120px;
+}
+
+#decoart2 {
+    position: absolute;
+    top: 570px;
+    right: 50px;
+}
+
+#decoart3 {
+    position: absolute;
+    bottom: 75px;
+    right: 70px;
+}
+
+#deco2{
+    position: absolute;
+    bottom: -100px;
+    right: -100px;
+}
+
+#decoart4 {
+    position: absolute;
+    bottom: 0px;
+    left: -80px;
+}
+
+#deco3 {
+    position: absolute;
+    top: -140px;
+    right:100px;
+}
+
+#decostars {
+    position: absolute;
+    top: 40px;
+    right: 90px;
+}

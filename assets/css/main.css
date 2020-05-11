@@ -1568,7 +1568,7 @@
 	}
 
 	body {
-		background: #fff;
+		background: #1c1c1c;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1585,12 +1585,13 @@
 /* Type */
 
 	body {
-		background-color: #fff;
+		background-color: #1c1c1c;
 		color: #444;
+		overflow-x: hidden;
 	}
 
 	body, input, select, textarea {
-		font-family: "Lato", Arial, Helvetica, sans-serif;
+		font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.75;
@@ -1630,11 +1631,11 @@
 
 	p {
 		margin: 0 0 2em 0;
-	}
+	} 
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 700;
-		line-height: 1.25;
+		font-family: Bebas Neue;
+		font-weight: 400;
 		margin: 0 0 1em 0;
 	}
 
@@ -1643,7 +1644,7 @@
 		}
 
 	h1 {
-		font-size: 2.35em;
+		font-size: 11em;
 	}
 
 	h2 {
@@ -3182,13 +3183,14 @@
 /* Banner */
 
 	#banner {
-		background-color: #3498db;
+		background-color: #1c1c1c;
 		color: rgba(255, 255, 255, 0.75);
 		text-align: center;
 		cursor: default;
 		padding: 4em 4em 0.5em 4em;
 		/* padding: 50vh 50vw 50vh 50vw */
 	}
+
 
 		#banner input, #banner select, #banner textarea {
 			color: #fff;
@@ -3229,7 +3231,7 @@
 		#banner button,
 		#banner .button {
 			background-color: #1abc9c;
-			color: #fff !important;
+			color: #1c1c1c !important;
 		}
 
 			#banner input[type="submit"]:hover,
@@ -3394,7 +3396,7 @@
 		}
 
 		#banner h1 {
-			font-size: 3em;
+			font-size: 5em;
 			line-height: 1.45;
 			margin: 0 0 0.25em 0;
 		}
@@ -3426,7 +3428,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#banner h1 {
-				font-size: 2.75em;
+				font-size: 5em;
 			}
 
 				#banner h1 br {
@@ -4851,4 +4853,9 @@
 
   #thanks{
 	  font-size: 28px;
+  }
+
+  #aboutUs {
+	  margin-top: 0.5em;
+	  margin-right: 3em;
   }

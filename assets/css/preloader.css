@@ -13,7 +13,7 @@
     position: absolute;
     top:0;
     left:0;
-    background-color: #3498db;
+    background-color: #1c1c1c;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,6 +74,6 @@
 
 .forcedBreak{
     margin-top: 1em;
-    color:#fff;
+    color:#1c1c1c;
     font-size: 40px;
 }
