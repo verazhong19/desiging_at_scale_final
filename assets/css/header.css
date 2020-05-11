@@ -3,12 +3,16 @@ body {
     padding-top: 4.125em;
 }
 
+.logo {
+    z-index: 1;
+}
+
 .logo-img{
     margin: 1.2em;
 }
 
 .logo-img:hover{
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 #header {

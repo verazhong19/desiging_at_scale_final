@@ -2,6 +2,7 @@
     position: absolute;
     top: 400px;
     left: -120px;
+    z-index: 0;
 }
 
 #decoart1 {

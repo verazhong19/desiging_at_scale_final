@@ -7,6 +7,10 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/header.css" />
 		<link rel="stylesheet" href="assets/css/bgDeco.css" />
+		<link rel="stylesheet" href="assets/css/preloader.css" />
+		<script src="assets/js/jquery.min.js"></script>
+
+
 
 
 	</head>
@@ -14,7 +18,7 @@
 	<body>
 		<header id="header">
 			<a href="index.html" class="logo"><img src="assets/images/logo.png" class='logo-img' height='52' width='185'></a>
-			<a class="js-scroll-trigger active" href="#one" >
+			<a href="about.html" >
 				<p id='aboutUs'>About Us</p>
 			</a>
 		</header>
@@ -37,19 +41,28 @@
 				</div>
 			</section>
 
+			<div class="loader-wrapper">
+
+			</div>
 
 			<footer id=footer>
 				<p>Copyright © 2050 CozyLiving Inc. All rights reserved.</p>
 			</footer>
 
+			<script>
+				$(window).on('load', function() {
+					$(".loader-wrapper").delay(200).fadeOut('slow');
+					console.log('loaded')
+				});
+			</script>
+
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="assets/js/scroll.js"></script>
-			<script src="assets/js/jquery.easing.min.js"></script>
+			<!-- <script src="assets/js/jquery.scrolly.min.js"></script> -->
+			<!-- <script src="assets/js/skel.min.js"></script> -->
+			<!-- <script src="assets/js/util.js"></script> -->
+			<!-- <script src="assets/js/main.js"></script> -->
+			<!-- <script src="assets/js/scroll.js"></script>
+			<script src="assets/js/jquery.easing.min.js"></script> -->
 
 	</body>
 </html>

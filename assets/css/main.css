@@ -4859,3 +4859,20 @@
 	  margin-top: 0.5em;
 	  margin-right: 3em;
   }
+
+  .aboutSect {
+	  text-align: left;
+  }
+
+  .aboutSect h2{
+	font-size: 3em;
+}
+
+.aboutSect h1{
+	padding-left: 0;
+}
+
+.aboutPage{
+	margin-left: 2.3em;
+	margin-right: 2.3em;
+}

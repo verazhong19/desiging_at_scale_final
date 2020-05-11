@@ -6,6 +6,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/header.css" />
+		<script src="assets/js/jquery.min.js"></script>
+
 
 	</head>
 
@@ -30,11 +32,15 @@
 				<p>Copyright © 2050 CozyLiving Inc. All rights reserved.</p>
 			</footer>
 
-			
+			<script>
+				$(window).on('load', function() {
+					$(".loader-wrapper").delay(100).fadeOut('slow');
+					console.log('loaded')
+				});
+			</script>
 			
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
