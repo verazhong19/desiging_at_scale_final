@@ -1198,6 +1198,12 @@ hr {
         margin: .5em;
     }
 
+    .applyMargin{
+        margin-left: .5em;
+        margin-right: .5em;
+
+    }
+
     #id{
         height: 400px;
         width: 100%;
@@ -1333,4 +1339,30 @@ hr {
  
     .entry {
         margin:1em;
+    }
+
+    .apply{
+        border-radius: 15px;
+        background-color: #1abc9c;
+        padding: 1em;
+    }
+
+    .apply2 {
+        position: absolute;
+        right: 32px;
+        
+    }
+
+    .step2 {
+        position: absolute;
+        right: 32px;
+        
+    }
+
+    .apply1:hover{
+        text-decoration: underline;
+    }
+
+    .apply2:hover{
+        text-decoration: underline;
     }
