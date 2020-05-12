@@ -1588,6 +1588,7 @@
 		background-color: #1c1c1c;
 		color: #444;
 		overflow-x: hidden;
+		overflow-y: hidden;
 	}
 
 	body, input, select, textarea {
@@ -4876,3 +4877,4 @@
 	margin-left: 2.3em;
 	margin-right: 2.3em;
 }
+

@@ -6,107 +6,143 @@
     <title>CozyLiving</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/listing.css" />
     <link rel="stylesheet" href="assets/css/header.css" />
     <link rel="stylesheet" href="assets/css/bootstrap_.css" />
     <link rel="stylesheet" href="assets/css/preloader.css" />
     <script src="assets/js/jquery.min.js"></script>
+
 
 </head>
 
 <body>
 
     <!-- Header -->
-    <header id="header">
+    <header id="header" style='background-color: #1c1c1c;'>
         <a href="index.html" class="logo"><img src="assets/images/logo.png" class='logo-img' height='52' width='185'></a>
     </header>
 
-    <!-- Search -->
-    <section id="main">
-        <div class='inner'>
-            <div class=row>
-                <input class='form-control form-control-lg col-4 searchMargin' type='text' placeholder="Address, neighborhood, or ZIP">
-                <select class='col-2 searchMargin' placeholder='Price'>
-					<option selected> Price </option>
-					<option>more prices</option>
-				</select>
-                <select class='col-2 searchMargin' placeholder='Price'>
-					<option selected> 1 Bed </option>
-					<option>more beds</option>
-				</select>
-                <select class='col-2 searchMargin' placeholder='Price'>
-					<option selected> Public Bath </option>
-					<option>Not Public?</option>
-				</select>
-                <button class='btn btn-primary searchMargin'>SEARCH</button>
-            </div>
-        </div>
-    </section>
 
     <!-- Main -->
     <section id="main">
-        <div class="inner">
+        <div class='listing'>
             <div class='row'>
-                <header class="heading ">
-                    <h1><strong>Your perfect choices are here</strong></h1>
-                </header>
-            </div>
-            <div class='row'>
-                <div class="col">
-                    <a href="item.html">
-                        <div class="row">
-                            <div class='col'>
-                                <img src="http://placekitten.com/300/200" alt="Placeholder Puppy">
-                            </div>
-                            <div class='col'>
-                                <h2>Room #202</h2>
-                                <h3>2 Gold St, Brooklyn</h3>
-                                <p>1 bed, public bath, shared kitchen<br>$220 per month</p>
+                <div class='col'>
+                    <div class=row>
+                        <input class='form-control form-control-lg col-4 searchMargin' style='background-color: #1c1c1c !important; color:#fff; border-color: #1abc9c;'type='text' placeholder="Brooklyn, NY" readonly>
+                        <select class='col-2 searchMargin' style='background-color: #1c1c1c !important; color:#fff; border-color: #1abc9c;' placeholder='Price'>
+                            <option selected> Price </option>
+                            <option>more prices</option>
+                        </select>
+                        <select class='col-2 searchMargin' style='background-color: #1c1c1c !important; color:#fff; border-color: #1abc9c;' placeholder='Price'>
+                            <option selected> 1 Bed </option>
+                            <option>more beds</option>
+                        </select>
+                        <select class='col-2 searchMargin' style='background-color: #1c1c1c !important; color:#fff; border-color: #1abc9c;' placeholder='Price'>
+                            <option selected> Public Bath </option>
+                            <option>Not Public?</option>
+                        </select>
+                    </div>
 
+                    <header class="heading">
+                        <h1 style='font-family: Futura; color: #fff; margin-top:30px;'>Your perfect choices:</h1>
+
+                        <!-- Item -->
+                        <div class='row item'>
+                            <div class="col">
+                                <img src="http://place-puppy.com/300x300" alt="Placeholder Puppy">
                             </div>
+            
+                            <div class="col">
+                                <div class="row">
+                                    <h1>$ 775</h1><p class='descMargin'>/month</p>
+                                </div>
+                                <div class='row'>
+                                    <h1>1 Pod</h1><p class='descMargin'> in Room #202</p><br>
+                                    <p>2 Gold St. Brooklyn, NY</p>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        
+                                        <p>8</p>
+                                    </div>
+                                    <div class="col">
+                                        <p>Shared</p>
+                                    </div>
+                                    <div class="col">
+                                        <p>Shared</p>
+                                    </div>
+                                </div>
+                            </div>
+            
                         </div>
-                    </a>
 
-                    <a href="item.html">
-                        <div class="row">
-                            <div class='col'>
-                                <img src="http://placekitten.com/300/200" alt="Placeholder Puppy">
+                         <!-- Item -->
+                         <div class='row item'>
+                            <div class="col">
+                                <img src="http://place-puppy.com/300x300" alt="Placeholder Puppy">
                             </div>
-                            <div class='col'>
-                                <h2>Room #202</h2>
-                                <h3>2 Gold St, Brooklyn</h3>
-                                <p>1 bed, public bath, shared kitchen<br>$220 per month</p>
-
+            
+                            <div class="col">
+                                <div class="row">
+                                    <h1>$ 775</h1><p class='descMargin'>/month</p>
+                                </div>
+                                <div class='row'>
+                                    <h1>
+                                        <h1>1 Pod</h1><p class='descMargin'>in Room 678</p><br>
+                                        <p>11 Jay St. Brooklyn, NY</p>
+                                    </h1>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p>8</p>
+                                    </div>
+                                    <div class="col">
+                                        <p>Shared</p>
+                                    </div>
+                                    <div class="col">
+                                        <p>Shared</p>
+                                    </div>
+                                </div>
                             </div>
+            
                         </div>
-                    </a>
 
-                    <a href="item.html">
-                        <div class="row">
-                            <div class='col'>
-                                <img src="http://placekitten.com/300/200" alt="Placeholder Puppy">
+                         <!-- Item -->
+                         <div class='row item'>
+                            <div class="col">
+                                <img src="http://place-puppy.com/300x300" alt="Placeholder Puppy">
                             </div>
-                            <div class='col'>
-                                <h2>Room #202</h2>
-                                <h3>2 Gold St, Brooklyn</h3>
-                                <p>1 bed, public bath, shared kitchen<br>$220 per month</p>
-
+            
+                            <div class="col">
+                                <div class="row">
+                                    <h1>$ 775</h1> <p class="descMargin">/month</p>
+                                </div>
+                                <div class='row'>
+                                    <h1>1 Pod</h1><p class='descMargin'>in Room 000</p>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p>8</p>
+                                    </div>
+                                    <div class="col">
+                                        <p>Shared</p>
+                                    </div>
+                                    <div class="col">
+                                        <p>Shared</p>
+                                    </div>
+                                </div>
                             </div>
+            
                         </div>
-                    </a>
-
-
+                    </header>
                 </div>
                 <div class='col'>
-                    <p>A google map here</p>
-                    <img src="http://placekitten.com/600/600" alt="Placeholder Puppy">
-                    <!-- <div id="map"></div>
-					<script src="assets/js/map.js"></script>
-					<script async defer
-						src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1g5MtO65UovkfwUQyniYDTjk5qlYLeV8&callback=initMap">
-					</script> -->
+                    <div id='map'></div>
                 </div>
             </div>
+
+
         </div>
     </section>
 
@@ -122,6 +158,27 @@
             <p style='color: white;'>Finding your cozy home...</p>
 		</div>
     </div>
+
+    <script>
+        // Initialize and add the map
+        function initMap() {
+          // The location of Uluru
+          var uluru = {lat: -25.344, lng: 131.036};
+          // The map, centered at Uluru
+          var map = new google.maps.Map(
+              document.getElementById('map'), {zoom: 4, center: uluru});
+          // The marker, positioned at Uluru
+          var marker = new google.maps.Marker({position: uluru, map: map});
+        }
+            </script>
+            <!--Load the API from the specified URL
+            * The async attribute allows the browser to render the page while the API loads
+            * The key parameter will contain your own API key (which is not needed for this tutorial)
+            * The callback parameter executes the initMap() function
+            -->
+            <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1g5MtO65UovkfwUQyniYDTjk5qlYLeV8&callback=initMap">
+            </script>
 
     <script>
         $(window).on('load', function() {
