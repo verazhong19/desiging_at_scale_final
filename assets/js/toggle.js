@@ -66,6 +66,7 @@ function toggleMap(){
     let visit = document.getElementById("visit");
     let photoButton = document.getElementById("photoButton");
     let mapButton = document.getElementById("mapButton");
+
     let floorButton = document.getElementById("floorButton");
     let visitButton = document.getElementById("visitButton");
 

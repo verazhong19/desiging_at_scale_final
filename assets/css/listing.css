@@ -1269,4 +1269,68 @@ hr {
         margin-bottom: 2px;
         font-size: 16px;
     }
+
+    #floorplan {
+        display: none;
+    }
+
+    #mapView {
+        display: none;
+        height: 817px;
+        width: 100%;
+        border-radius: 15px;    
+        
+    }
+
+    #visit {
+        display: none;
+    }
+
+
+    #photoButton{
+        color: #1abc9c;
+        text-decoration: underline;
+    }
+
+    #visitButton{
+        color: #fff;
+    }
+
+    #floorButton{
+        color: #fff;
+    }
+    #mapButton{
+        color: #fff;
+    }
+
+    #photoButton:hover{
+        color: #1abc9c !important;
+        text-decoration: underline !important;
+    }
+
+    #floorButton:hover{
+        color: #1abc9c !important;
+        text-decoration: underline !important;
+
+    }
+
+    #mapButton:hover{
+        color: #1abc9c !important;
+        text-decoration: underline !important;
+
+    }
+
+    #visitButton:hover{
+        color: #1abc9c !important;
+        text-decoration: underline !important;
+
+    }
+
+    .basic-info{
+        position: absolute;
+        bottom: 18px; 
+    }
  
+    .entry {
+        margin:1em;
+    }
