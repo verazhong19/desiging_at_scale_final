@@ -10,6 +10,8 @@
 		<link rel="stylesheet" href="assets/css/preloader.css" />
 		<link rel="stylesheet" href="assets/css/bootstrap_.css"/>
 		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/persona.js"></script>
+
 	</head>
 
 	<body>
@@ -22,13 +24,19 @@
 					<div id="persona" class="row">
 						<div class="col">
 							<a href='mlanding.html'>
-							<img src="assets/images/scan.png" class='logo-img'>
+							<img src="assets/images/mannyId.png" id='manny1' onmouseover='displayManny()' onmouseout='hideManny()'>
 							</a>
+							<a href='mlanding.html'>
+								<img src="assets/images/mannyIdHover.png" id='manny2'>
+								</a>
 						</div>	
 						<div class="col">
 							<a href='alanding.html'>
-							<img src="assets/images/scan.png" class='logo-img'>
+							<img src="assets/images/andreaId.png" id='andrea1' class='persona' onmouseover='displayAndy()' onmouseout='hideAndy()'>
 							</a>
+							<a href='alanding.html'>
+								<img src="assets/images/andreaIdHover.png" id='andrea2' class='persona'>
+								</a>
 						</div>					
 					</div>
 					
@@ -45,9 +53,7 @@
 
 				</div>
 	
-				<footer id=footer>
-					<p>Copyright © 2050 CozyLiving Inc. All rights reserved.</p>
-				</footer>
+				
 	
 				<script>
 					$(window).on('load', function() {

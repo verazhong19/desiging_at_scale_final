@@ -9,6 +9,7 @@ body {
 
 .logo-img{
     margin: 1.2em;
+    
 }
 
 .logo-img:hover{
@@ -132,4 +133,36 @@ body {
         min-width: 320px;
     }
 
+}
+
+/* #footer {
+    position: absolute;
+    bottom: 0px;
+    left: 36vw;
+} */
+
+#manny1 {
+    position: absolute;
+    left: 8vw;
+    z-index: 2;
+}
+
+#manny2 {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    left: 8vw;
+}
+
+#andrea1{
+    position: absolute;
+    right: 8vw;
+    z-index: 2;
+}
+
+#andrea2{
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    right: 8vw;
 }
