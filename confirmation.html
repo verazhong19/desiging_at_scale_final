@@ -7,6 +7,9 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/header.css" />
 		<link rel="stylesheet" href="assets/css/bgDeco.css" />
+		<link rel="stylesheet" href="assets/css/preloader.css" />
+		<script src="assets/js/jquery.min.js"></script>
+
 
 
 	</head>
@@ -36,19 +39,29 @@
 				</div>
 			</section>
 
+			<div class="loader-wrapper">
+				<span class="loader">
+					<span class="loader-inner"></span>
+				</span>
+				<div class="forcedBreak">
+					<p style='color: white;'>Submitting your application...</p>
+				</div>
+			</div>
+		
+		  
+		
+			<script>
+				$(window).on('load', function() {
+					$(".loader-wrapper").delay(2000).fadeOut('slow');
+					console.log('loaded')
+				});
+			</script>
+
 
 			<footer id=footer>
 				<p>Copyright © 2050 CozyLiving Inc. All rights reserved.</p>
 			</footer>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="assets/js/scroll.js"></script>
-			<script src="assets/js/jquery.easing.min.js"></script>
 
 	</body>
 </html>
