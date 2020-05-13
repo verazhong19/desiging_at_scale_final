@@ -1249,6 +1249,7 @@ hr {
         background: #fff;
         margin: 20px;
         padding: 34px;
+        padding-left: 6px;
         border-style: solid;
         border-color: transparent;
         border-width: 6px;
@@ -1256,7 +1257,7 @@ hr {
     #map {
         position: fixed !important;
         margin-left:40px;
-        height: 830px;
+        height: 800px;
         width: 45%;
         border-radius: 15px;    
         
@@ -1370,4 +1371,5 @@ hr {
     .sidebar {
         width: 678px;
         height: 560px;
+        overflow-y: hidden;
     }
