@@ -1282,7 +1282,7 @@ hr {
 
     #mapView {
         display: none;
-        height: 817px;
+        height: 560px;
         width: 100%;
         border-radius: 15px;    
         
@@ -1367,12 +1367,7 @@ hr {
         text-decoration: underline;
     }
 
-    .persona {
-        position: absolute;
-        
-    }
-
-    #manny2{
-        top: 0px;
-        z-index: -1;
+    .sidebar {
+        width: 678px;
+        height: 560px;
     }
