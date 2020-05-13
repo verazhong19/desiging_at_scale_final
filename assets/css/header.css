@@ -143,20 +143,21 @@ body {
 
 #manny1 {
     position: absolute;
-    left: 8vw;
+    left: 50px;
+    top: 4px;
     z-index: 2;
 }
 
 #manny2 {
-    visibility: hidden;
+    
     position: absolute;
     z-index: 1;
-    left: 8vw;
+    left: 50px;
 }
 
 #andrea1{
     position: absolute;
-    right: 8vw;
+    right: 50px;
     z-index: 2;
 }
 
@@ -164,5 +165,5 @@ body {
     visibility: hidden;
     position: absolute;
     z-index: 1;
-    right: 8vw;
+    right: 50px;
 }
