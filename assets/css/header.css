@@ -149,7 +149,7 @@ body {
 }
 
 #manny2 {
-    
+    visibility: hidden;
     position: absolute;
     z-index: 1;
     left: 50px;
